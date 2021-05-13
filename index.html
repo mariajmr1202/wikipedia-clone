@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wikipedia</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="logo">
+        <img
+          class="logo__img"
+          src="https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg"
+          alt="Logo Wikipedia"
+        />
+        <div class="wiki-name">
+          <h1 class="wiki-name__title">Wikipedia</h1>
+          <p class="wiki-name__detail">La enciclopedia libre</p>
+        </div>
+      </section>
+      <section class="languages_container">
+        <div class="languages">
+          <a
+            href="https://es.wikipedia.org/wiki/Wikipedia:Portada"
+            class="languages__info left-1"
+          >
+            <strong class="languages__type">Español</strong>
+            <div class="languages__description">
+              <small class="languages__details"> 1 667 000+ </small>
+              <small class="languages__details">articulos</small>
+            </div>
+          </a>
+        </div>
+        <div class="languages right-1">
+          <a
+            href="https://la.wikipedia.org/wiki/Vicipaedia:Pagina_prima"
+            class="languages__info"
+          >
+            <strong class="languages__type">Latina</strong>
+            <div class="languages__description">
+              <small class="languages__details"> 134 000+ </small>
+              <small class="languages__details">commentationes</small>
+            </div>
+          </a>
+        </div>
+        <div class="languages left-2">
+          <a
+            href="https://en.wikipedia.org/wiki/Main_Page"
+            class="languages__info"
+          >
+            <strong class="languages__type">English</strong>
+            <div class="languages__description">
+              <small class="languages__details"> 6 272 000+ </small>
+              <small class="languages__details">articles</small>
+            </div>
+          </a>
+        </div>
+        <div class="languages right-2">
+          <a
+            href="https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8"
+            class="languages__info"
+          >
+            <strong class="languages__type">日本語</strong>
+            <div class="languages__description">
+              <small class="languages__details"> 1 258 000+ </small>
+              <small class="languages__details">記事</small>
+            </div>
+          </a>
+        </div>
+        <div class="languages left-3">
+          <a
+            href="https://de.wikipedia.org/wiki/Wikipedia:Hauptseite"
+            class="languages__info"
+          >
+            <strong class="languages__type">Deutsch</strong>
+            <div class="languages__description">
+              <small class="languages__details"> 2 549 000+ </small>
+              <small class="languages__details">Artikel</small>
+            </div>
+          </a>
+        </div>
+        <div class="languages right-3">
+          <a
+            href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0"
+            class="languages__info"
+          >
+            <strong class="languages__type">Русский</strong>
+            <div class="languages__description">
+              <small class="languages__details"> 1 706 000+ </small>
+              <small class="languages__details">статей</small>
+            </div>
+          </a>
+        </div>
+        <div class="languages left-4">
+          <a
+            href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal"
+            class="languages__info"
+          >
+            <strong class="languages__type">Français</strong>
+            <div class="languages__description">
+              <small class="languages__details"> 2 309 000+ </small>
+              <small class="languages__details">articles</small>
+            </div>
+          </a>
+        </div>
+        <div class="languages right-4">
+          <a
+            href="https://it.wikipedia.org/wiki/Pagina_principale"
+            class="languages__info"
+          >
+            <strong class="languages__type">Italiano</strong>
+            <div class="languages__description">
+              <small class="languages__details"> 1 679 000+ </small>
+              <small class="languages__details">voci</small>
+            </div>
+          </a>
+        </div>
+        <div class="languages left-5">
+          <a
+            href="https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5"
+            class="languages__info"
+          >
+            <strong class="languages__type">中文</strong>
+            <div class="languages__description">
+              <small class="languages__details"> 1 183 000+ </small>
+              <small class="languages__details">條目</small>
+            </div>
+          </a>
+        </div>
+        <div class="languages right-5">
+          <a
+            href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal"
+            class="languages__info"
+          >
+            <strong class="languages__type">Português</strong>
+            <div class="languages__description">
+              <small class="languages__details"> 1 060 000+ </small>
+              <small class="languages__details">artigos</small>
+            </div>
+          </a>
+        </div>
+      </section>
+      <section class="search__container">
+        <div class="search">
+          <input class="search__input" type="text" />
+          <select class="search__select">
+            <option value="ES">ES</option>
+            <option value="EN">EN</option>
+            <option value="FR">FR</option>
+          </select>
+        </div>
+        <button class="search__button"><i class="search__image"></i></button>
+      </section>
+      <div class="main-footer__container">
+        <section class="idioma__container">
+          <button class="idioma">
+            <img
+              src="https://raw.githubusercontent.com/wikimedia/portals/0af0e35bce35b820104e3f7cbf30b186d5ed5041/dev/wikipedia.org/assets/img/sprite_assets/language-icon.svg"
+              alt="Icono de idioma"
+            />
+            <strong>Leer Wikipedia en tu idioma</strong>
+            <img
+              src="https://raw.githubusercontent.com/wikimedia/portals/0af0e35bce35b820104e3f7cbf30b186d5ed5041/dev/wikipedia.org/assets/img/sprite_assets/arrow-down-blue.svg"
+              alt="Icono flecha hacia abajo"
+            />
+          </button>
+        </section>
+        <div class="linea"></div>
+        <section class="main-footer">
+          <figure class="wikimedia">
+            <img
+              class="wikimedia__imagen"
+              src="https://raw.githubusercontent.com/wikimedia/portals/a53d8b9f468f3754fe9f8e2eb6f57d5bcf399269/dev/wikipedia.org/assets/img/sprite_assets/Wikimedia-logo_black.svg"
+              alt="Imagen Wikimedia"
+            />
+            <figcaption class="wikimedia__description">
+              Wikipedia es alojada por la Fundación Wikimedia, una organización
+              sin fines de lucro que también alberga una gama de otros
+              proyectos.
+            </figcaption>
+          </figure>
+          <section class="downland">
+            <figure class="downland__title">
+              <img
+                class="downland__image"
+                src="https://raw.githubusercontent.com/wikimedia/portals/a53d8b9f468f3754fe9f8e2eb6f57d5bcf399269/dev/wikipedia.org/assets/img/sprite_assets/wikipedia_app_tile.svg"
+                alt="Mini logo Wikipedia"
+              />
+              <figcaption class="downland__description">
+                Descargar Wikipedia para Android o iOS
+              </figcaption>
+            </figure>
+            <p class="downland__anuncio">
+              Guarda tus artículos favoritos para leerlos sin conexión,
+              sincroniza tus listas de lectura en varios dispositivos y
+              personaliza tu experiencia de lectura con la aplicación oficial de
+              Wikipedia.
+            </p>
+            <div class="downland-apps">
+              <img
+                class="downland-apps__img"
+                src="https://raw.githubusercontent.com/wikimedia/portals/a53d8b9f468f3754fe9f8e2eb6f57d5bcf399269/dev/wikipedia.org/assets/img/sprite_assets/badge_google_play_store.svg"
+                alt="Logo Play Store"
+              />
+              <img
+                class="downland-apps__img"
+                src="https://raw.githubusercontent.com/wikimedia/portals/a53d8b9f468f3754fe9f8e2eb6f57d5bcf399269/dev/wikipedia.org/assets/img/sprite_assets/badge_ios_app_store.svg"
+                alt="Logo App Store"
+              />
+            </div>
+          </section>
+          <section class="app__container">
+            <article class="app">
+              <figure class="app__img">
+                <img
+                  src="https://raw.githubusercontent.com/wikimedia/portals/a53d8b9f468f3754fe9f8e2eb6f57d5bcf399269/dev/wikipedia.org/assets/img/sprite_assets/Commons-logo_sister.svg"
+                  alt="Imagen Commons"
+                />
+              </figure>
+              <div class="app__details">
+                <a class="app__title">Commons</a>
+                <p class="app__description">
+                  Fotos libremente utilizables y más
+                </p>
+              </div>
+            </article>
+            <article class="app">
+              <figure class="app__img">
+                <img
+                  src="https://raw.githubusercontent.com/wikimedia/portals/a53d8b9f468f3754fe9f8e2eb6f57d5bcf399269/dev/wikipedia.org/assets/img/sprite_assets/Wikivoyage-logo_sister.svg"
+                  alt="Imagen Wikiviajes"
+                />
+              </figure>
+              <div class="app__details">
+                <a class="app__title">Wikiviajes</a>
+                <p class="app__description">La guía de viajes libre</p>
+              </div>
+            </article>
+            <article class="app">
+              <figure class="app__img">
+                <img
+                  src="https://raw.githubusercontent.com/wikimedia/portals/a53d8b9f468f3754fe9f8e2eb6f57d5bcf399269/dev/wikipedia.org/assets/img/sprite_assets/Wiktionary-logo_sister.svg"
+                  alt="Imagen Wikcionario"
+                />
+              </figure>
+              <div class="app__details">
+                <a class="app__title">Wikcionario</a>
+                <p class="app__description">El diccionario libre</p>
+              </div>
+            </article>
+            <article class="app">
+              <figure class="app__img">
+                <img
+                  src="https://raw.githubusercontent.com/wikimedia/portals/a53d8b9f468f3754fe9f8e2eb6f57d5bcf399269/dev/wikipedia.org/assets/img/sprite_assets/Wikibooks-logo_sister.svg"
+                  alt="Imagen Wikilibros"
+                />
+              </figure>
+              <div class="app__details">
+                <a class="app__title">Wikilibros</a>
+                <p class="app__description">Libros de contenido libre</p>
+              </div>
+            </article>
+            <article class="app">
+              <figure class="app__img">
+                <img
+                  src="https://raw.githubusercontent.com/wikimedia/portals/master/dev/wikipedia.org/assets/img/Wikinews-logo_sister.png"
+                  alt="Imagen Wikinoticias"
+                />
+              </figure>
+              <div class="app__details">
+                <a class="app__title">Wikinoticias</a>
+                <p class="app__description">La fuente de noticias libre</p>
+              </div>
+            </article>
+            <article class="app">
+              <figure class="app__img">
+                <img
+                  src="https://raw.githubusercontent.com/wikimedia/portals/a53d8b9f468f3754fe9f8e2eb6f57d5bcf399269/dev/wikipedia.org/assets/img/sprite_assets/Wikidata-logo_sister.svg"
+                  alt="Imagen Wikidata"
+                />
+              </figure>
+              <div class="app__details">
+                <a class="app__title">Wikidata</a>
+                <p class="app__description">Base de conocimiento libre</p>
+              </div>
+            </article>
+            <article class="app">
+              <figure class="app__img">
+                <img
+                  src="https://raw.githubusercontent.com/wikimedia/portals/a53d8b9f468f3754fe9f8e2eb6f57d5bcf399269/dev/wikipedia.org/assets/img/sprite_assets/Wikiversity-logo_sister.svg"
+                  alt="Imagen Wikiversidad"
+                />
+              </figure>
+              <div class="app__details">
+                <a class="app__title">Wikiversidad</a>
+                <p class="app__description">Plataforma educativa libre</p>
+              </div>
+            </article>
+            <article class="app">
+              <figure class="app__img">
+                <img
+                  src="https://raw.githubusercontent.com/wikimedia/portals/a53d8b9f468f3754fe9f8e2eb6f57d5bcf399269/dev/wikipedia.org/assets/img/sprite_assets/Wikiquote-logo_sister.svg"
+                  alt="Imagen Wikiquote"
+                />
+              </figure>
+              <div class="app__details">
+                <a class="app__title">Wikiquote</a>
+                <p class="app__description">La colección de citas</p>
+              </div>
+            </article>
+            <article class="app">
+              <figure class="app__img">
+                <img
+                  src="https://raw.githubusercontent.com/wikimedia/portals/a53d8b9f468f3754fe9f8e2eb6f57d5bcf399269/dev/wikipedia.org/assets/img/sprite_assets/MediaWiki-logo_sister.svg"
+                  alt="Imagen MediaWiki"
+                />
+              </figure>
+              <div class="app__details">
+                <a class="app__title">MediaWiki</a>
+                <p class="app__description">Aplicación wiki libre y abierta</p>
+              </div>
+            </article>
+            <article class="app">
+              <figure class="app__img">
+                <img
+                  src="https://raw.githubusercontent.com/wikimedia/portals/a53d8b9f468f3754fe9f8e2eb6f57d5bcf399269/dev/wikipedia.org/assets/img/sprite_assets/Wikisource-logo_sister.svg"
+                  alt="Imagen Wikisource"
+                />
+              </figure>
+              <div class="app__details">
+                <a class="app__title">Wikisource</a>
+                <p class="app__description">La biblioteca libre</p>
+              </div>
+            </article>
+            <article class="app">
+              <figure class="app__img">
+                <img
+                  src="https://raw.githubusercontent.com/wikimedia/portals/a53d8b9f468f3754fe9f8e2eb6f57d5bcf399269/dev/wikipedia.org/assets/img/sprite_assets/Wikispecies-logo_sister.svg"
+                  alt="Imagen Wikispecies"
+                />
+              </figure>
+              <div class="app__details">
+                <a class="app__title">Wikispecies</a>
+                <p class="app__description">Directorio de especies libre</p>
+              </div>
+            </article>
+            <article class="app">
+              <figure class="app__img">
+                <img
+                  src="https://raw.githubusercontent.com/wikimedia/portals/a53d8b9f468f3754fe9f8e2eb6f57d5bcf399269/dev/wikipedia.org/assets/img/sprite_assets/Meta-Wiki-logo_sister.svg"
+                  alt="Imagen Meta-Wiki"
+                />
+              </figure>
+              <div class="app__details">
+                <a class="app__title">Meta-Wiki</a>
+                <p class="app__description">
+                  Coordinación y documentación comunitaria
+                </p>
+              </div>
+            </article>
+          </section>
+        </section>
+        <footer>
+          <p>
+            Esta página está disponible bajo la
+            <a href="https://creativecommons.org/licenses/by-sa/3.0/">
+              licencia Creative Commons Atribución-CompartirIgual
+            </a>
+            •
+            <a
+              class="rules"
+              href="https://meta.wikimedia.org/wiki/Terms_of_use/es"
+            >
+              Términos de uso</a
+            >
+            •
+            <a
+              class="rules"
+              href="https://meta.wikimedia.org/wiki/Privacy_policy/es"
+              >Normativa de privacidad</a
+            >
+          </p>
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>

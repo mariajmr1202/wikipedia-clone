@@ -1,0 +1,428 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&family=Roboto:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #54595d;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.logo {
+  position: relative;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.logo__img {
+  width: 57px;
+  margin-right: 10px;
+}
+
+.wiki-name {
+  text-align: center;
+}
+
+.wiki-name__title {
+  font-size: 3.2rem;
+  font-weight: 300;
+  color: black;
+}
+
+.wiki-name__detail {
+  font-size: 1.4rem;
+  color: black;
+}
+
+.search__container {
+  width: 95%;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #a2a9b1;
+  border-radius: 2px 0 0 2px;
+  width: 80%;
+  max-width: 335px;
+}
+
+.search__input {
+  height: 44px;
+  padding: 0.8rem 0.8rem 0.8rem 1.2rem;
+  border: none;
+  outline: none;
+}
+
+.search__select {
+  width: 40px;
+  height: 24px;
+  margin-right: 10px;
+  border: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 0.2rem;
+}
+
+.search__button {
+  width: 56px;
+  height: 46px;
+  background-color: #3366cc;
+  background-image: url("https://raw.githubusercontent.com/wikimedia/portals/a53d8b9f468f3754fe9f8e2eb6f57d5bcf399269/dev/wikipedia.org/assets/img/sprite_assets/search-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+}
+
+.languages_container {
+  max-width: 580px;
+  display: flex;
+  flex-wrap: wrap;
+  order: 1;
+}
+
+.languages {
+  width: 33%;
+  height: 64px;
+  margin-bottom: 16px;
+  padding: 0 16px;
+}
+
+.languages__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.languages__type {
+  color: #3366cc;
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+}
+
+.languages__description {
+  text-align: center;
+}
+
+.languages__details {
+  font-size: 1.3rem;
+}
+
+.main-footer__container {
+  order: 1;
+}
+
+.idioma {
+  width: 267.66px;
+  height: 36px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #3366cc;
+  background-color: #f8f9fa;
+  border: 1px solid #a2a9b1;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.idioma strong {
+  color: #3366cc;
+  font-size: 1.4rem;
+}
+
+.linea {
+  width: 90vw;
+  margin: 0 auto;
+  border-bottom: 1px solid #c8ccd1;
+}
+
+.main-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.wikimedia {
+  margin: 10px 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wikimedia__imagen {
+  width: 42px;
+  height: 42px;
+}
+
+.wikimedia__description {
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.downland {
+  background-color: #f8f9fa;
+  padding-top: 10px;
+  order: 2;
+}
+
+.downland__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.downland__image {
+  width: 29.4px;
+  height: 29.4px;
+}
+
+.downland__description {
+  margin-left: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.downland__anuncio {
+  margin: 20px 10px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.downland-apps {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.downland-apps__img {
+  width: 124px;
+  height: 38px;
+}
+
+.app__container {
+  margin: 0 10px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  order: 1;
+}
+
+.app {
+  width: 50%;
+  max-width: 234.42px;
+  margin-bottom: 38px;
+  display: flex;
+  justify-content: start;
+}
+
+.app__img {
+  width: 50px;
+}
+
+.app__details {
+  margin-left: 5px;
+}
+
+.app__title {
+  font-size: 1.3rem;
+  color: #3366cc;
+}
+
+.app__description {
+  font-size: 1.3rem;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 20px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+footer a {
+  color: #3366cc;
+}
+
+/* .rules::before {
+  content: •;
+} */
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 481px) {
+  .languages_container {
+    margin: 20px 0;
+    width: 479px;
+    min-height: 325px;
+    order: 0;
+    position: relative;
+  }
+
+  .logo {
+    position: relative;
+    flex-direction: column-reverse;
+  }
+
+  .logo__img {
+    width: 200px;
+    height: 183px;
+    position: absolute;
+    top: 158px;
+    left: -25px;
+  }
+
+  .languages__type {
+    font-size: 1.6rem;
+  }
+
+  .languages {
+    min-width: 100px;
+  }
+
+  .left-1 {
+    position: absolute;
+    left: 80px;
+    top: 10px;
+  }
+
+  .right-1 {
+    position: absolute;
+    right: 60px;
+    top: 10px;
+  }
+
+  .left-2 {
+    position: absolute;
+    left: -1px;
+    top: 80px;
+  }
+
+  .right-2 {
+    position: absolute;
+    right: -5px;
+    top: 80px;
+  }
+
+  .left-3 {
+    position: absolute;
+    left: -20px;
+    top: 150px;
+  }
+
+  .right-3 {
+    position: absolute;
+    right: -20px;
+    top: 150px;
+  }
+
+  .left-4 {
+    position: absolute;
+    left: -10px;
+    top: 210px;
+  }
+
+  .right-4 {
+    position: absolute;
+    right: -10px;
+    top: 210px;
+  }
+
+  .left-5 {
+    position: absolute;
+    left: 40px;
+    top: 280px;
+  }
+
+  .right-5 {
+    position: absolute;
+    right: 35px;
+    top: 280px;
+  }
+
+  .search__container {
+    margin-bottom: 30px;
+  }
+
+  .idioma {
+    margin-bottom: 30px;
+  }
+
+  .app {
+    width: 33%;
+  }
+}
+
+@media (min-width: 769px) {
+  .main-footer {
+    position: relative;
+    margin: 1%;
+  }
+
+  .wikimedia {
+    width: 33%;
+    margin-top: 20px;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .wikimedia__description {
+    margin: 0;
+    margin-left: 10px;
+  }
+
+  .downland {
+    width: 33%;
+    order: 1;
+    margin-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  .downland__anuncio {
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 40px;
+  }
+
+  .downland-apps {
+    margin-left: 35px;
+  }
+
+  .app__container {
+    width: 65%;
+    margin-top: 0;
+    position: absolute;
+    transform: translate(50%, 20px);
+  }
+}
